@@ -46,6 +46,7 @@ Initial Research:
 •	Read about various models available
 First Approach: Hugging Face
 I started with Hugging Face because everyone recommends it for beginners. I thought it would be straightforward.
+python```
 # My first attempt
 from huggingface_hub import InferenceClient
 
@@ -53,7 +54,8 @@ client = InferenceClient()
 response = client.text_generation(
     "What is Python?",
     model="meta-llama/Llama-3.2-3B-Instruct"
-)
+)```
+
 The Problem:
 ❌ Model didn't exist
 ❌ Got 404 errors
