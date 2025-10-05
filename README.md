@@ -836,10 +836,9 @@ I'm happy to discuss:
 •	Challenges faced
 •	Future improvements
 •	Anything else!
-Author: [Your Name]
-Email: [your.email@example.com]
-LinkedIn: [Your Profile]
-GitHub: [Your Repository]
+Author: Anshuman Kansana
+Email: anshumankansana@gmail.com
+mobile:- +91-7223069582
 ________________________________________
 🙏 Acknowledgments
 Thanks to:
