@@ -300,13 +300,22 @@ def main():
         st.divider()
         
         st.markdown("""
-        <div style='text-align: center; padding: 20px;'>
-            <p style='font-size: 12px; color: #666;'>
-                Made with ❤️ for Internship<br>
-                Enhanced Version 2.0<br>
-                © 2025
-            </p>
-        </div>
+       <div style="text-align: center; padding: 20px;">
+  <p style="font-size: 12px; color: #666; margin-bottom: 10px;">
+    Made by : <strong>Anshuman Kansana</strong> <br>
+    Enhanced Version 2.0 <br>
+    © 2025
+  </p>
+  <div style="margin-top: 5px;">
+    <a href="https://www.linkedin.com/in/anshuman-kansana-b6b759320/" target="_blank" style="margin: 0 10px; text-decoration: none; color: #0077b5; font-size: 14px;">
+      🔗 LinkedIn
+    </a>
+    <a href="https://anshumankansana.github.io/portfolio/" target="_blank" style="margin: 0 10px; text-decoration: none; color: #333; font-size: 14px;">
+      💼 Portfolio
+    </a>
+  </div>
+</div>
+
         """, unsafe_allow_html=True)
     
     current_chat_data = st.session_state.chats[st.session_state.current_chat]
